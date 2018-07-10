@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fortaleza Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="beach_title">Praias</string>
+    <string name="attractions_title">Atrações</string>
+    <string name="shopping_title">Compras</string>
+    <string name="food_title">Comida</string>
+</resources>
