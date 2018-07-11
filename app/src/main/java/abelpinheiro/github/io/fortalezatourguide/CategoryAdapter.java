@@ -6,6 +6,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import abelpinheiro.github.io.fortalezatourguide.Fragment.AttractionsFragment;
+import abelpinheiro.github.io.fortalezatourguide.Fragment.BeachFragment;
+import abelpinheiro.github.io.fortalezatourguide.Fragment.FoodFragment;
+import abelpinheiro.github.io.fortalezatourguide.Fragment.ShoppingFragment;
+
 public class CategoryAdapter extends FragmentPagerAdapter {
 
     private Context mContext;

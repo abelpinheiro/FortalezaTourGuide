@@ -1,4 +1,4 @@
-package abelpinheiro.github.io.fortalezatourguide;
+package abelpinheiro.github.io.fortalezatourguide.Fragment;
 
 
 import android.os.Bundle;
@@ -8,13 +8,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import abelpinheiro.github.io.fortalezatourguide.R;
+
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AttractionsFragment extends Fragment {
+public class ShoppingFragment extends Fragment {
 
 
-    public AttractionsFragment() {
+    public ShoppingFragment() {
         // Required empty public constructor
     }
 

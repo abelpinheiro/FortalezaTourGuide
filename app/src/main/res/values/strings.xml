@@ -8,4 +8,8 @@
     <string name="attractions_title">Atrações</string>
     <string name="shopping_title">Compras</string>
     <string name="food_title">Comida</string>
+    <string name="morro_branco_title">Morro Branco</string>
+    <string name="morro_branco_description">Morro Branco é uma praia localizada na cidade de Beberibe,
+        a 91 km de Fortaleza. Bastante conhecida pela sua coloração de areias, tem como principal atração o
+        Labirinto do Morro Branco que fora formada pela erosão das falésias e dunas.</string>
 </resources>
