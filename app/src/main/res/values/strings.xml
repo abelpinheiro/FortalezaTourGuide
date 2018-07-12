@@ -12,4 +12,64 @@
     <string name="morro_branco_description">Morro Branco é uma praia localizada na cidade de Beberibe,
         a 91 km de Fortaleza. Bastante conhecida pela sua coloração de areias, tem como principal atração o
         Labirinto do Morro Branco que fora formada pela erosão das falésias e dunas.</string>
+
+    <string name="cumbuco_title">Cumbuco</string>
+    <string name="cumbuco_description">A uma distância de apenas 23 quilômetros do centro de Fortaleza, a Praia do Cumbuco
+    chama a atenção pelas suas incríveis dunas e ótima estrutura para receber os turistas. Por ter as melhores dunas do Ceará,
+    é quase obrigatório passeios de buggy. Para os mais esportivos, é possível também praticar Kitesurf, windesurf, vela e
+    muitos outros esportes náuticos!</string>
+
+    <string name="canoa_quebrada_title">Canoa Quebrada</string>
+    <string name="canoa_quebrada_description">Canoa Quebrada é uma das praias mais badaladas do estado! Com águas límpidas e
+    o paredão de falésias multicoloridas, encata a todos que passam. Esta belíssima praia também conta com a Broadway, a rua
+    mais badalada da região lotada de bares e restaurantes para fazer a alegria noturna dos turistas que voltam da praia.</string>
+
+    <string name="jericoacoara_title">Jericoacoara</string>
+    <string name="jericoacoara_description">Jeri é uma linda vila de pescadores com um ar rústico, povoada não só por locais
+    como também belgas, franceses, italianos e muitos outros estrangeiros que se apaixonaram pela região. A cidade ficou famosa
+        por ser uma das praias mais belas e longas do mundo, cercada por dunas e lagoas de água doce – levando pessoas de todo o
+        mundo a suas margens. Eleita em 2014 como a quarta melhor praia do mundo pelo Huffington Post!</string>
+
+    <string name="beach_park_title">Beach Park</string>
+    <string name="beach_park_description"></string>
+
+    <string name="museu_cachaca_title">Museu da Cachaça</string>
+    <string name="museu_cachaca_description">O Sítio Ypioca, onde fica o Museu da Cachaça, abriga um imenso casarão do século 19.
+    Neste museu é possível conhecer o processo de fabricação da cachaça, a história da cachaça no estado do Ceará e até mesmo provar
+    um pouco da bebida de tonéis centenários! Para prover mais diversão aos visitantes, o museu recebeu também parque aquático,
+    passeios de caiaque, escalada e muitas atrações esportivas.</string>
+
+    <string name="dragao_mar_title">Dragão do Mar</string>
+    <string name="dragao_mar_description">Um dos maiores centros culturais do Brasil, o Dragão do Mar possui as mais diversas
+    atrações culturais como o Museu da Cultura Cearense, o Museu de Arte Contemporânea do Ceará, Planetário Rubens de Azevedo,
+        Teatro Dragão do Mar, Salas do Cinema do Dragão, Anfiteatro Sérgio Mota, Biblioteca Estadual, Multigalerias e
+        espaços para exposições itinerantes.</string>
+
+    <string name="coco_title">Parque do Cocó</string>
+    <string name="coco_description"></string>
+
+    <string name="tapioqueira_title">Centro das Tapioqueiras</string>
+    <string name="tapioqueira_description"></string>
+
+    <string name="sabores_title">50 Sabores</string>
+    <string name="sabores_description"></string>
+
+    <string name="bambu_title">Coco Bambu</string>
+    <string name="bambu_description"></string>
+
+    <string name="merc_peixes_title">Mercado dos Peixes</string>
+    <string name="merc_peixes_description"></string>
+
+    <string name="mall_title">Jardins Open Mall</string>
+    <string name="mall_description"></string>
+
+    <string name="mercado_title">Mercado Central</string>
+    <string name="mercado_description"></string>
+
+    <string name="iguatemi_title">Shopping Iguatemi</string>
+    <string name="iguatemi_description"></string>
+
+    <string name="monsenhor_tabosa_title">Monsenhor Tabosa</string>
+    <string name="monsenhor_tabosa_description"></string>
+
 </resources>

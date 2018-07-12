@@ -21,6 +21,7 @@
                 android:id="@+id/image_item"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
                 android:scaleType="fitXY"
                 tools:src="@drawable/ic_launcher_background"/>
 
@@ -34,7 +35,7 @@
                 android:paddingLeft="8dp"
                 android:layout_centerHorizontal="true"
                 android:textColor="@android:color/white"
-                tools:text="TEST FOR A WHILE"/>
+                tools:text="TITULO"/>
 
 
             <TextView
@@ -45,7 +46,7 @@
                 android:gravity="center"
                 android:maxLines="3"
                 android:textSize="18sp"
-                tools:text="AQUI É UM TESTE TESTE TESTE"/>
+                tools:text="DESCRICAO"/>
         </RelativeLayout>
     </android.support.v7.widget.CardView>
 

@@ -33,6 +33,9 @@ public class BeachFragment extends Fragment {
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Item> itens = new ArrayList<>();
         itens.add(new Item(getString(R.string.morro_branco_title), R.drawable.morro_branco_01, getString(R.string.morro_branco_description)));
+        itens.add(new Item(getString(R.string.cumbuco_title), R.drawable.cumbuco_01, getString(R.string.cumbuco_description)));
+        itens.add(new Item(getString(R.string.canoa_quebrada_title), R.drawable.canoa_quebrada_02, getString(R.string.canoa_quebrada_description)));
+        itens.add(new Item(getString(R.string.jericoacoara_title), R.drawable.jericoacoara_04, getString(R.string.jericoacoara_description)));
         ItemAdapter adapter = new ItemAdapter(rootView.getContext(), itens);
         listView.setAdapter(adapter);
         return listView;
