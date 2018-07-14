@@ -1,4 +1,4 @@
-package abelpinheiro.github.io.fortalezatourguide;
+package abelpinheiro.github.io.fortalezatourguide.Adapter;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
@@ -10,16 +10,23 @@ import abelpinheiro.github.io.fortalezatourguide.Fragment.AttractionsFragment;
 import abelpinheiro.github.io.fortalezatourguide.Fragment.BeachFragment;
 import abelpinheiro.github.io.fortalezatourguide.Fragment.FoodFragment;
 import abelpinheiro.github.io.fortalezatourguide.Fragment.ShoppingFragment;
+import abelpinheiro.github.io.fortalezatourguide.R;
 
+/**
+ * Classe para instanciar o fragment adequado para a posição encontrada do ViewPager
+ */
 public class CategoryAdapter extends FragmentPagerAdapter {
 
+    // Atributo contexto
     private Context mContext;
 
+    // Construtor da classe
     public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         this.mContext = context;
     }
 
+    // Dependendo da posição do ViewPager, irá instanciar o fragment adequado
     @Override
     public Fragment getItem(int position) {
         if (position == 0){
@@ -33,11 +40,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         }
     }
 
+    // Método para retornar a quantidade de fragments existentes
     @Override
     public int getCount() {
         return 4;
     }
 
+    // Seta o texto do tabLayout de acordo com a posição.
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
