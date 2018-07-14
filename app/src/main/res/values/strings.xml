@@ -31,7 +31,11 @@
         mundo a suas margens. Eleita em 2014 como a quarta melhor praia do mundo pelo Huffington Post!</string>
 
     <string name="beach_park_title">Beach Park</string>
-    <string name="beach_park_description"></string>
+    <string name="beach_park_description">O Beach Park é um dos melhores parques aquáticos do mundo, com atrações para a família
+        inteira – de refrescantes chafarizes a tobogãs com altura de um prédio de 14 andares. São mais de 18 atrações entre piscinas
+        de ondas, toboáguas e corredeiras, além de saunas, restaurantes, lanchonetes e cadeiras de descanso espalhados por uma área de
+        35 mil metros quadrados. Além disso, é possível também aproveitar a praia que fica tão próxima do parque aquática, curtindo assim
+     um pouco da água salgada e doce!</string>
 
     <string name="museu_cachaca_title">Museu da Cachaça</string>
     <string name="museu_cachaca_description">O Sítio Ypioca, onde fica o Museu da Cachaça, abriga um imenso casarão do século 19.
@@ -46,30 +50,50 @@
         espaços para exposições itinerantes.</string>
 
     <string name="coco_title">Parque do Cocó</string>
-    <string name="coco_description"></string>
+    <string name="coco_description">O Parque Estadual do Cocó é o quarto maior parque urbano da América Latina, considerado uma área
+    de conservação da vida natural. No espaço você encontrar algumas áreas verdes para trilhas ecológicas. Todas são abertas ao
+        público e podem ou não serem guiadas. Diversas atividades esportivas e culturais são oferecidas gratuitamente, tais como ioga,
+        massoterapia, arborismo e slack-line. </string>
 
     <string name="tapioqueira_title">Centro das Tapioqueiras</string>
-    <string name="tapioqueira_description"></string>
+    <string name="tapioqueira_description">Quem viaja ao Nordeste precisa comer, ao menos uma vez, uma boa tapioca; o Centro das Tapioqueiras
+        é perfeito para esse fim. O lugar reúne em um único espaço diversas tapiocarias, então você terá várias opções. Visitar o centro é uma
+        excelente pedida para fazer um café da manhã caprichado ou um lanche no final da tarde. Os preços são bons; portanto, o centro é indicado
+        para quem deseja fazer uma refeição sem gastar muito. Um pedido clássico é a tapioca de carne de sol com queijo, mas, se quiser inovar, você
+        encontrará diversos outros sabores.</string>
 
     <string name="sabores_title">50 Sabores</string>
-    <string name="sabores_description"></string>
+    <string name="sabores_description">Inaugurada em 1975, a 50 sabore.6+26 é a sorveteria mais tradicional da cidade! Apesar do nome, a casa oferece, hoje,
+        150 sabores! Entre os mais inusitados, caipirinha, coalhada com rapadura, tapioca com café e muito mais!</string>
 
     <string name="bambu_title">Coco Bambu</string>
-    <string name="bambu_description"></string>
+    <string name="bambu_description">Criado em 1989 como apenas uma pastelaria, hoje o coco bambu é uma grande potência culinária de renome.
+    Antes conhecida pelos deliciosos crepes, pizzas e tapiocas hoje encanta a todos não só com a culinária regional, mas também das mais diversas.</string>
 
     <string name="merc_peixes_title">Mercado dos Peixes</string>
-    <string name="merc_peixes_description"></string>
+    <string name="merc_peixes_description">Inaugurado na década de 60, o Mercado dos Peixes de Fortaleza veio como uma facilitação para os pescadores da região.
+    O Mercado dos Peixes de Fortaleza funciona como um mercadão para moradores e comerciantes da cidade. É possível comprar peças frescas de peixes e frutos do
+        mar por preços bem em conta. Ao término do funcionamento do comércio, mesinhas são colocadas no calçadão da Beira Mar e você pode comprar peixe, lagosta e
+        camarão para serem fritos ou cozidos na hora, sem precisar de cardápio e apenas pedindo aos pescadores uma peça em específica para eles prepararem o prato.</string>
 
     <string name="mall_title">Jardins Open Mall</string>
-    <string name="mall_description"></string>
+    <string name="mall_description">Um belíssimo shopping a céu aberto no coração da Aldeota que proporciona tranquilidade pelo forte apelo paisagístico que contrasta
+    com a selva de concreto ao redor do shopping.</string>
 
     <string name="mercado_title">Mercado Central</string>
-    <string name="mercado_description"></string>
+    <string name="mercado_description">Considerado o segundo maior ponto de venda de artesanato e produtos locais de Fortaleza, o Mercado Central de Fortaleza
+    vende dos mais diversos produtos: artigos em couro, rendas e bordados, bijuterias, cachaça, licores, castanhas e muito mais. Restaurantes dentro do mercado também
+        oferecem comidas típicas nordestinas para os consumidores. O Mercado Central é localizado no centro da cidade, possibilitando ao turista passear por outros pontos
+    turísticos de Fortaleza, como o Passeio Público e a Catedral da Sé.</string>
 
     <string name="iguatemi_title">Shopping Iguatemi</string>
-    <string name="iguatemi_description"></string>
+    <string name="iguatemi_description">Um dos primeiros shoppings a serem construídos em Fortaleza, ele é considerado pelos locais como um dos shoppings que melhor
+    sana as diversas necessidades, sejam estas de compras de utensílios ou roupas, lazer por meio de cinemas e atrações, comidas pelos restaurantes ou até mesmo como ponto
+    de encontro e descanso.</string>
 
     <string name="monsenhor_tabosa_title">Monsenhor Tabosa</string>
-    <string name="monsenhor_tabosa_description"></string>
+    <string name="monsenhor_tabosa_description">Entre os pontos para compras mais tradicionais e conhecidos da cidade está a Avenida Monsenhor Tabosa. São cerca de 450 lojas
+        ao longo da Avenida Monsenhor Tabosa. Fábricas de sapatos, lingeries, roupas masculinas e femininas, bancos, pequenos shoppings centers, lanchonetes e restaurantes.
+    Na avenida você ainda encontra um museu, que conta um pouco da história da cidade, além do seminário que deu origem ao primeiro nome da rua.</string>
 
 </resources>
