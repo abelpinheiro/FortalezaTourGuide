@@ -22,6 +22,11 @@ import abelpinheiro.github.io.fortalezatourguide.R;
  */
 public class AttractionsFragment extends Fragment {
 
+    // Variavéis estáticas para guardar a string que será colocada nos putExtra
+    private static String TITLE_LOCAL = "TITLE";
+    private static String IMAGE_LOCAL = "IMAGE";
+    private static String DESCRIPTION_LOCAL = "DESCRIPTION";
+
     public AttractionsFragment() {
         // Required empty public constructor
     }
@@ -38,12 +43,12 @@ public class AttractionsFragment extends Fragment {
             Instanciação de uma ArrayList de Item, depois é populado na arraylist os itens desejados.
             instanciação de um adapter para para inflar na listView os elementos da arraylist
          */
-        final ArrayList<Item> itens = new ArrayList<>();
-        itens.add(new Item(getString(R.string.beach_park_title), R.drawable.beach_park_01, getString(R.string.beach_park_description)));
-        itens.add(new Item(getString(R.string.museu_cachaca_title), R.drawable.cachaca_02, getString(R.string.museu_cachaca_description)));
-        itens.add(new Item(getString(R.string.dragao_mar_title), R.drawable.dragao_mar_03, getString(R.string.dragao_mar_description)));
-        itens.add(new Item(getString(R.string.coco_title), R.drawable.coco_03, getString(R.string.coco_description)));
-        ItemAdapter adapter = new ItemAdapter(getActivity(), itens);
+        final ArrayList<Item> attractionsList = new ArrayList<>();
+        attractionsList.add(new Item(getString(R.string.beach_park_title), R.drawable.beach_park_01, getString(R.string.beach_park_description)));
+        attractionsList.add(new Item(getString(R.string.museu_cachaca_title), R.drawable.cachaca_02, getString(R.string.museu_cachaca_description)));
+        attractionsList.add(new Item(getString(R.string.dragao_mar_title), R.drawable.dragao_mar_03, getString(R.string.dragao_mar_description)));
+        attractionsList.add(new Item(getString(R.string.coco_title), R.drawable.coco_03, getString(R.string.coco_description)));
+        ItemAdapter adapter = new ItemAdapter(getActivity(), attractionsList);
         listView.setAdapter(adapter);
 
         /* Listener que recebe o item da ListView pressionado. Irá receber todos os os valores
@@ -53,16 +58,16 @@ public class AttractionsFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Obter o item da posição pressionada e seus respectivos atributos
-                Item currentItem = itens.get(position);
+                Item currentItem = attractionsList.get(position);
                 String title = currentItem.getmTitle();
                 int image = currentItem.getmImage();
                 String description = currentItem.getmDescription();
 
                 // Enviar os valores dos atributos por Intent para DetailItem
                 Intent intent = new Intent(rootView.getContext(), DetailItem.class);
-                intent.putExtra("TITLE", title);
-                intent.putExtra("IMAGE", image);
-                intent.putExtra("DESCRIPTION", description);
+                intent.putExtra(TITLE_LOCAL, title);
+                intent.putExtra(IMAGE_LOCAL, image);
+                intent.putExtra(DESCRIPTION_LOCAL, description);
                 startActivity(intent);
             }
         });

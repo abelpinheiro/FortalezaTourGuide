@@ -20,6 +20,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     // Atributo contexto
     private Context mContext;
 
+    // Numero de fragmentos retornardos em getCount
+    private static final int NUMBER_OF_LISTS = 4;
+
     // Construtor da classe
     public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
@@ -43,7 +46,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     // Método para retornar a quantidade de fragments existentes
     @Override
     public int getCount() {
-        return 4;
+        return NUMBER_OF_LISTS;
     }
 
     // Seta o texto do tabLayout de acordo com a posição.

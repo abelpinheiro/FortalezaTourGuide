@@ -22,6 +22,11 @@ import abelpinheiro.github.io.fortalezatourguide.R;
  */
 public class FoodFragment extends Fragment {
 
+    // Variavéis estáticas para guardar a string que será colocada nos putExtra
+    private static String TITLE_LOCAL = "TITLE";
+    private static String IMAGE_LOCAL = "IMAGE";
+    private static String DESCRIPTION_LOCAL = "DESCRIPTION";
+
     public FoodFragment() {
         // Required empty public constructor
     }
@@ -38,12 +43,12 @@ public class FoodFragment extends Fragment {
             Instanciação de uma ArrayList de Item, depois é populado na arraylist os itens desejados.
             instanciação de um adapter para para inflar na listView os elementos da arraylist
          */
-        final ArrayList<Item> itens = new ArrayList<>();
-        itens.add(new Item(getString(R.string.tapioqueira_title), R.drawable.tapioqueira_04, getString(R.string.tapioqueira_description)));
-        itens.add(new Item(getString(R.string.sabores_title), R.drawable.sabores_02, getString(R.string.sabores_description)));
-        itens.add(new Item(getString(R.string.bambu_title), R.drawable.coco_bambu_01, getString(R.string.bambu_description)));
-        itens.add(new Item(getString(R.string.merc_peixes_title), R.drawable.mercado_peixes_01, getString(R.string.merc_peixes_description)));
-        ItemAdapter adapter = new ItemAdapter(getActivity(), itens);
+        final ArrayList<Item> foodList = new ArrayList<>();
+        foodList.add(new Item(getString(R.string.tapioqueira_title), R.drawable.tapioqueira_04, getString(R.string.tapioqueira_description)));
+        foodList.add(new Item(getString(R.string.sabores_title), R.drawable.sabores_02, getString(R.string.sabores_description)));
+        foodList.add(new Item(getString(R.string.bambu_title), R.drawable.coco_bambu_01, getString(R.string.bambu_description)));
+        foodList.add(new Item(getString(R.string.merc_peixes_title), R.drawable.mercado_peixes_01, getString(R.string.merc_peixes_description)));
+        ItemAdapter adapter = new ItemAdapter(getActivity(), foodList);
         listView.setAdapter(adapter);
 
         /* Listener que recebe o item da ListView pressionado. Irá receber todos os os valores
@@ -53,16 +58,16 @@ public class FoodFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Obter o item da posição pressionada e seus respectivos atributos
-                Item currentItem = itens.get(position);
+                Item currentItem = foodList.get(position);
                 String title = currentItem.getmTitle();
                 int image = currentItem.getmImage();
                 String description = currentItem.getmDescription();
 
                 // Enviar os valores dos atributos por Intent para DetailItem
                 Intent intent = new Intent(rootView.getContext(), DetailItem.class);
-                intent.putExtra("TITLE", title);
-                intent.putExtra("IMAGE", image);
-                intent.putExtra("DESCRIPTION", description);
+                intent.putExtra(TITLE_LOCAL, title);
+                intent.putExtra(IMAGE_LOCAL, image);
+                intent.putExtra(DESCRIPTION_LOCAL, description);
                 startActivity(intent);
             }
         });

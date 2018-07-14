@@ -22,6 +22,11 @@ import abelpinheiro.github.io.fortalezatourguide.R;
  */
 public class ShoppingFragment extends Fragment {
 
+    // Variavéis estáticas para guardar a string que será colocada nos putExtra
+    private static String TITLE_LOCAL = "TITLE";
+    private static String IMAGE_LOCAL = "IMAGE";
+    private static String DESCRIPTION_LOCAL = "DESCRIPTION";
+
     public ShoppingFragment() {
         // Required empty public constructor
     }
@@ -38,12 +43,12 @@ public class ShoppingFragment extends Fragment {
             Instanciação de uma ArrayList de Item, depois é populado na arraylist os itens desejados.
             instanciação de um adapter para para inflar na listView os elementos da arraylist
          */
-        final ArrayList<Item> itens = new ArrayList<>();
-        itens.add(new Item(getString(R.string.mall_title), R.drawable.open_mall_01, getString(R.string.mall_description)));
-        itens.add(new Item(getString(R.string.mercado_title), R.drawable.mercado_03, getString(R.string.mercado_description)));
-        itens.add(new Item(getString(R.string.iguatemi_title), R.drawable.iguatemi_01, getString(R.string.iguatemi_description)));
-        itens.add(new Item(getString(R.string.monsenhor_tabosa_title), R.drawable.mons_tabosa_02, getString(R.string.monsenhor_tabosa_description)));
-        ItemAdapter adapter = new ItemAdapter(getActivity(), itens);
+        final ArrayList<Item> shoppingList = new ArrayList<>();
+        shoppingList.add(new Item(getString(R.string.mall_title), R.drawable.open_mall_01, getString(R.string.mall_description)));
+        shoppingList.add(new Item(getString(R.string.mercado_title), R.drawable.mercado_03, getString(R.string.mercado_description)));
+        shoppingList.add(new Item(getString(R.string.iguatemi_title), R.drawable.iguatemi_01, getString(R.string.iguatemi_description)));
+        shoppingList.add(new Item(getString(R.string.monsenhor_tabosa_title), R.drawable.mons_tabosa_02, getString(R.string.monsenhor_tabosa_description)));
+        ItemAdapter adapter = new ItemAdapter(getActivity(), shoppingList);
         listView.setAdapter(adapter);
 
         /* Listener que recebe o item da ListView pressionado. Irá receber todos os os valores
@@ -53,16 +58,16 @@ public class ShoppingFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Obter o item da posição pressionada e seus respectivos atributos
-                Item currentItem = itens.get(position);
+                Item currentItem = shoppingList.get(position);
                 String title = currentItem.getmTitle();
                 int image = currentItem.getmImage();
                 String description = currentItem.getmDescription();
 
                 // Enviar os valores dos atributos por Intent para DetailItem
                 Intent intent = new Intent(rootView.getContext(), DetailItem.class);
-                intent.putExtra("TITLE", title);
-                intent.putExtra("IMAGE", image);
-                intent.putExtra("DESCRIPTION", description);
+                intent.putExtra(TITLE_LOCAL, title);
+                intent.putExtra(IMAGE_LOCAL, image);
+                intent.putExtra(DESCRIPTION_LOCAL, description);
                 startActivity(intent);
             }
         });
